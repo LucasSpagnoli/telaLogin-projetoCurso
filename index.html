@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=key" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main> 
+        <section id="login">
+            <div id="img"></div>
+            <div id="form">
+                <h3>Login</h3>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="cadastro.php" method="get">
+                    <div class="emailESenha"><span class="material-symbols-outlined">mail</span><input type="email" name="nEmail" id="idEmail" placeholder="Insira seu email"></div><br>
+                    <div class="emailESenha"><span class="material-symbols-outlined">key</span><input type="password" name="nSenha" id="idSenha" placeholder="Insira sua senha"></div>
+                    <input type="submit" value="Entrar" class="entrarEEsqueci">
+                    <a href="#"><input type="button" value="Esqueci Senha" class="entrarEEsqueci"></a>
+                </form>
+            </div>
+        </section>      
+    </main>
+</body>
+</html>
